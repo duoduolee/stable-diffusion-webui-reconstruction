@@ -271,8 +271,8 @@ def prepare_environment():
     if not skip_torch_cuda_test:
         run_python("import torch; assert torch.cuda.is_available(), 'Torch is not able to use GPU; add --skip-torch-cuda-test to COMMANDLINE_ARGS variable to disable this check'")
 
-    if not is_installed("gfpgan"):
-        run_pip(f"install {gfpgan_package}", "gfpgan")
+    #if not is_installed("gfpgan"):
+    #   run_pip(f"install {gfpgan_package}", "gfpgan")
 
     if not is_installed("clip"):
         run_pip(f"install {clip_package}", "clip")
