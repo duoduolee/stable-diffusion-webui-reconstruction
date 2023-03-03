@@ -1,34 +1,3 @@
-root@iZbp152vek80v5osba0f6dZ:~/diffusion_only_cpu/docker-stable-diffusion-webui# ls
-Dockerfile  LICENSE  README.md
-root@iZbp152vek80v5osba0f6dZ:~/diffusion_only_cpu/docker-stable-diffusion-webui# vim  Dockerfile 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # build: docker build -t uberi/stable-diffusion .
 # run: docker run --rm -p 7860:7860 uberi/stable-diffusion
